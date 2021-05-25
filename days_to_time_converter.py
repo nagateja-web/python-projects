@@ -33,3 +33,21 @@ while user_input != 'exit':
     days_and_unit_dictionary = {"days":days_and_unit[0],"unit":days_and_unit[1]}
     print(days_and_unit_dictionary)
     validate_execute()
+
+    
+    
+    
+    
+    
+""" OUTPUT
+    Hey user, enter a number of days and conversion unit: 20:hours
+['20', 'hours']
+{'days': '20', 'unit': 'hours'}
+20 days are 480 hours
+Hey user, enter a number of days and conversion unit: 40:minutes
+['40', 'minutes']
+{'days': '40', 'unit': 'minutes'}
+40 days are 57600 minutes
+Hey user, enter a number of days and conversion unit: exit
+['exit']
+    """    
